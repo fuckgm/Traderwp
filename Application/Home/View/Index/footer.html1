@@ -1,0 +1,21 @@
+<link rel="stylesheet" href="__CSS__/jquery.mobile-1.3.2.min.css">
+<link rel="stylesheet" href="__CSS__/swiper3.1.0.min.css">	  
+	<div data-theme="a" data-role="footer" data-position="fixed" class="ui-footer ui-bar-a ui-footer-fixed slideup" role="contentinfo">
+    <div class="ui-grid-d footer_L">
+      <div class="ui-block-a footer_L_W">
+					<div> <a href="{:U('Index/index')}" data-transition="fade" data-ajax="false" class="ui-link"> <img src="__CSS__/home_1.png" alt="image"><div>首页</div> </a> </div>      </div>
+      <div class="ui-block-b footer_L_W">
+		<div> <a class="A_active_1 ui-link" href="{:U('Index/index')}" data-transition="fade" data-ajax="false"> <img src="__CSS__/trade_2.png" alt="image"><div>交易</div> </a> </div>
+		      </div>
+	  <!--
+      <div class="ui-block-c footer_L_W">
+					<div> <a href="/index.php/agent/agent_manage" data-transition="fade" data-ajax='false'> <img src="/Public/MPublic/images/proxy_1.png" alt="image"><div>代理</div> </a> </div>      </div>
+-->
+      <div class="ui-block-d footer_L_W">   
+					<div> <a href="{:U('User/img')}" data-transition="fade" data-ajax="false" class="ui-link"> <img src="__CSS__/active_1.png" alt="image"><div>分享</div> </a> </div>      </div>
+      <div class="ui-block-e footer_L_W">
+					<div> <a href="{:U('User/memberinfo')}" data-transition="fade" data-ajax="false" class="ui-link"> <img src="__CSS__/me_1.png" alt="image"><div>我</div> </a> </div>      </div>
+    </div>
+  </div>
+  
+   

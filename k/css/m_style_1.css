@@ -1,0 +1,141 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/* 交易中心 */
+
+.M_std{
+	/*width:100%;*/
+	background:#fff;
+	border:1px solid #e4e4e4;
+	margin:0.5em 0;
+	padding:0.5em 0;
+	overflow:hidden;
+}
+.M_zic_1, .M_zic_2, .M_zic_3{
+	float:left;
+}
+.M_zic_1{
+	width:39%;
+	margin-left:1%;
+}
+.M_zic_2{
+	width:34%;
+}
+.M_zic_3{
+	width:25%;
+	margin-right:1%;
+}
+.M_zic_3 input{
+	width:98%;
+}
+.M_zic_3 input,.M_zic_1 select,.M_zic_2 select,.M_duan_3 select{
+	height:2em;
+	background:#fff;
+	border:1px solid #9b9b9b;
+	border-radius:0.3em;
+}
+.M_zic_3 input{
+	height:1.9em;
+}
+.M_duan_1{width:36%;}
+.M_duan_2{width:32%;}
+.M_duan_3{width:30%;}
+.M_trad{
+	width:100%;
+	overflow:hidden;
+	border-radius:0.3em;
+}
+.M_trading_tit{
+	height:1.8em;
+	line-height:1.8em;
+	text-align:center;
+	background:#434343;
+	font-size:1.5em;
+}
+.M_trading_cont{
+	overflow:hidden;
+	background:#f2f2f2;
+/*	padding:0.5em;
+	font-size:1.2em;*/
+}
+.M_trad_table{
+	width:100%;
+	color:#888;
+	font-size:1.1em;
+}
+.M_trad_table tr{
+	width:100%;
+}
+.M_trad_table td.td{
+	border-right:1px dashed #ccc;
+}
+.M_trad_table td{
+	padding:0.5em;
+	border-bottom:1px dashed #ccc;
+	  letter-spacing: -1px;
+}
+.M_trad_table td span{
+	color:#555;
+}
+.M_trad_btn_bg{
+	background:#f2f2f2;
+	text-align:center;
+}
+.M_trad_btn{
+	background:#3f98f7;
+	padding:0.2em 1.5em;
+	border-radius:0.3em;
+}
+.M_trad_btn .ui-btn-inner{
+	padding:0;
+}
+
+/* 交易详情 过期订单 */
+
+.M_std_tit{
+	width:96%;
+	overflow:hidden;
+	padding:0.8em 0;
+	font-size:1.1em;
+}
+.M_std_tit a{
+	color:#2d2d2d;
+	padding:0.2em 0.8em;
+	margin-right:0.3em;
+}
+.M_std_tit a.M_a_on{
+	background:#52a092;
+	color:#fff;
+}
+.M_trad_main{
+	width:96%;
+	border:1px solid #e4e4e4;
+}
+div.ui-content ul.ui-listview{
+	margin:0;
+}
+.M_trad_list .ui-collapsible-heading .ui-btn-icon-left .ui-btn-inner, .M_trad_list .ui-btn-inner{
+	padding:0;
+}
+.M_trad_list h3{
+	padding-left:0.5em;
+}
+
+
+/* 交易明细 按钮 样式 */ 
+
+.M_trad_button{
+	font-size:12px;
+	padding:0;
+	padding:0.5em 0;
+	background:#1d91eb;
+	border-radius:0.3em;
+	color:#fff;
+	width:100%;
+	margin:0.6em 0 0.2em;
+}
+
+.M_trad_button span.ui-btn-inner, .M_trad_button span.ui-btn-text{
+	color:#fff;
+}
+
